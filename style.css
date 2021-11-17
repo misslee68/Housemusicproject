@@ -1,0 +1,95 @@
+/*Body background color setting */
+
+body   {
+
+background-color: black;
+
+
+}
+
+/* Top menu flexbox */
+
+.navmenu1-container  {
+
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.navmenu1-container  >  div   {
+
+    margin-left: 20px;
+    
+/* Main menu flexbox */    
+
+}
+
+
+.navmenu2-container {
+
+    display: flex;
+    flex-direction: row;
+    background-color: blue;
+    height: 10%;
+    width: 100%;
+    margin-top: 10px;
+    
+    
+}
+
+
+.navmenu2-container  >  div  {
+
+    padding-top: 8px;
+    padding-right: 10px;
+    margin-left: 35px;
+    justify-content: space-evenly;
+    
+}
+
+/* Search box setting */
+    
+ #search-box  {
+
+    margin-left: 355px;
+    margin-top: 9px;
+    padding-left: 100px;
+    padding-top: 5px;
+}
+
+
+/* Heading flexbox css */
+
+.mainpage-container {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.mainpage-container  >  div  {
+
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 20px;
+    
+
+}
+
+/* Image beginning flexbox */
+
+.image-container  {
+
+    display: flex;
+    justify-content: left;
+    
+    background-color:black;
+    margin-top: 1px;
+    
+}
+
+
+
+
+
