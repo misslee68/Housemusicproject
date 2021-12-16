@@ -1,0 +1,233 @@
+/*Body background color setting */
+
+body   {
+
+    background-color: black;
+    
+    
+    }
+    
+    /* Top menu flexbox */
+    
+    .navmenu1-container  {
+    
+        display: flex;
+        flex-direction: row;
+        
+    }
+    
+    .navmenu1-container  >  div   {
+    
+        margin-left: 20px;
+        
+    /* Main menu flexbox */    
+    
+    }
+    
+    
+    .navmenu2-container {
+    
+        display: flex;
+        flex-direction: row;
+        background-color: blue;
+        height: 10%;
+        width: 100%;
+        margin-top: 10px;
+        
+        
+    }
+    
+    
+    .navmenu2-container  >  div  {
+    
+        padding-top: 8px;
+        padding-right: 10px;
+        margin-left: 35px;
+        justify-content: space-evenly;
+        
+    }
+    
+    /* Search box setting */
+        
+     #search-box  {
+    
+        margin-left: 355px;
+        margin-top: 9px;
+        padding-left: 100px;
+        padding-top: 5px;
+    }
+    
+    
+    /* Heading flexbox css */
+    
+    .mainpage-container {
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+    }
+    
+    .mainpage-container  >  div  {
+    
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-left: 20px;
+        
+    
+    }
+    
+    /* Image beginning flexbox */
+    
+    .image-container  {
+    
+        display: flex;
+        justify-content: center;
+        
+        background-color:black;
+        margin-top: 1px;
+        
+        
+    }
+    
+    /* Subscriber form */
+    
+    .form-container {
+    
+        display: flex;
+        
+        flex-direction: column;
+        
+        color: white;
+    
+        margin-top: -120px;
+    
+        
+    }
+    
+    
+    /* Table */
+    
+    .table-container   {
+    
+        display: flex;
+        flex-direction: row;
+        margin-top: -20px;
+        
+        
+    
+    }
+    
+    
+    
+    
+    /*Some text */
+    
+    
+    #listentome  {
+    
+        background-color: black;
+        color: red;
+        text-align: center;
+        justify-content: space-between;
+        margin-top: 160px;
+        
+    
+    }
+    
+    table  {
+    
+        width: 100%;
+        margin-top: 50px;
+        margin-left: 1px;
+        margin-right: 1px;
+        table-layout: auto;
+    
+        
+        
+    }
+    
+    th, td {
+    
+       
+        
+        margin-top: -50px;
+        border: 5px solid blue;
+        color: white;
+        
+        
+    }
+    
+    th {
+    
+    
+        text-align: center;
+    }
+    
+    
+    
+    td {
+    
+        text-align: left;
+        justify-content: center;
+        background-color: black;
+        font-weight: bold;
+        padding-left: 3px;
+        
+        
+    }
+    
+    /* Hover */
+    
+     td:hover    {
+        
+        background-color: yellow;
+    
+    }
+    
+    
+    /* Another table */
+    
+    
+    
+    .mypicks-container  {
+    
+    
+        display: flex;
+        flex-direction: row;
+        
+    
+        width: 50px;
+        height: 50px;
+        
+        
+    }
+    
+    /* styling and image from blog */
+    
+    .center {
+    
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 20%;
+    }
+    
+    /*removing text decoration */
+    
+    a  {
+    
+        text-decoration:none;
+    
+    }
+    
+    
+    /*sytling an ordered list */
+    
+    
+    #lovehouse {
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
